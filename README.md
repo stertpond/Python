@@ -3,22 +3,39 @@
 
 To learn Python, I recommend the following approach:
 1. Install Visual Studio Code (VS Code)
-2. Install Python Extension for VS Code - this will make sense one VS Code is installed
-3. Install Python Compiler
+2. Install Python Extension for VS Code and the Python compiler
 
 ## Install Visual Studio Code
 
-VS Code is a free, lightweight but very powerful file editor from Microsoft that can be used for writing applications. Although there is a bit learning curve to be mastered initially, it is worth the effort and should not take long - don't give up.
+VS Code is a free, lightweight but very powerful file editor from Microsoft that can be used for writing small (and large) programs. 
+Be warned, initially there is a bit of a learning curve to be mastered here, however, this is definitly worth the effort and should not take you long - don't give up.
+VS Code is worth knowing even if you do not want to code!!
 
-1. Download from https://code.visualstudio.com/docs#vscode and follow the instructions
+Install as follows:
+1. Download from [vs code site](https://code.visualstudio.com/docs#vscode) and follow the instructions
+2. Once installed, verify that you can open the program
+3. Recommend you add shortcut to the Windows Task bar to make accessing the program easier.
 
-## Install Python Extension
+## Install Python Extension and Compiler
 
-Setting up the extension is explained here https://code.visualstudio.com/docs/python/python-tutorial
+Instructions are available [here](https://code.visualstudio.com/docs/python/python-tutorial).
+Follow these carefully, noting the following:
+- You will need to install Python compiler as explained [here](https://code.visualstudio.com/docs/python/python-tutorial#_install-a-python-interpreter) where you are given different options. I recommend you downloaded the compiler from [python org](https://www.python.org/downloads/) where you can click the download button
+- Once installed verify the installation as described [here](https://code.visualstudio.com/docs/python/python-tutorial#_install-a-python-interpreter)
 
-## Install Python Compiler / Interpreter
+# Create your first (very simple) Python program
+The aim here is to verify things are working by writing a very simple program to print the words "Hello World". 
+Explained here https://code.visualstudio.com/docs/python/python-tutorial#_install-a-python-interpreter
+Any problems, give me a shout
 
-Explained here https://www.python.org/downloads/
+# Git amd Source Code Respository
+This file, together with my example Python programs, are stored in an online source code repository called ![GitHub](https://github.com/).   
+GitHub is the worlds largest source code repository and is accessible to everyone at no charge. 
+It provides an easy and effective way to share source code. 
+It also works very well with VS Code. 
+Once you have got the Python working in VS Code then we can look at sharing code using Git
 
-# Writing and executing Programs
-Start by trying to run the programs included in this repository..or give me a call 
+Happy coding!!!
+
+
+
