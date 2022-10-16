@@ -14,9 +14,9 @@ def Risk1(value1, value2):
  if(value1 == 3 and value2 == 4): return 'High'
  else: return 'No risk'
 
-# This is our new more efficient method
+# This is the new, improved 'refactored' method
 def Risk2(value1, value2):
- if(value1 == 1 and (value2 == 1 or value2==2)): return 'xLow'
+ if(value1 == 1 and (value2 == 1 or value2==2)): return 'xLow' 
  if(value1 == 1 and (value2 == 3 or value2==4)): return 'xMedium'
  if(value1 == 2 and value2 == 1): return 'Low'
  if(value1 == 2 and (value2 == 2 or value2== 3)): return 'Medium'
@@ -25,11 +25,10 @@ def Risk2(value1, value2):
  if(value1 == 3 and (value2 == 3 or value2==4)): return 'High'
  else: return 'No risk'
 
-# The code below checks that both the orinal method (Risk) and the new method (Risk2) both return the expected Risk 
-# for all the different values
+# Code below checks that both the orinal method (Risk1) and the new method (Risk2) both return the expected Risk for all the different values
 
-# First, we define a list of 'tuples'. A tuple is an object that is used to store multiple values
-# Each of our tuples contain 3 objects corresponding to, Value1, Value2 and the expected Risk
+# First, define a list of 'tuples'. A tuple is an object that is used to store multiple values
+# Each tuple contain 3 objects corresponding to, Value1, Value2 and the expected Risk
 # For example, tuple (1,1,'Low') has Value1=1, Value2=2 and the expected risk is 'Low'
 # Put all of the tuples we are interested in into a list (list are defined by the square brackets)
 tuples = [(1,1,'Low'),(1,2,'Low'),(1,3,'Medium'),(1,4,'Medium')
@@ -44,11 +43,11 @@ for tuple in tuples:
     expectedRisk=tuple[2] #extract expected Risk from the tuple
     
     risk1 = Risk1(v1,v2) # calculate the Risk using original method
-    risk1Result =""
+    risk1Result = ""
     if (risk1!=expectedRisk): risk1Result ="ERROR!"
 
     risk2 = Risk2(v1,v2) # calculate the Risk using our new method
-    risk2Result =""
+    risk2Result = ""
     if (risk2!=expectedRisk): risk2Result ="ERROR!"
 
     print(tuple, ":", "Risk1=",risk1, risk1Result,"; Risk2=",risk2, risk2Result)
