@@ -1,9 +1,13 @@
 
 # Getting Started with Python
 
-To learn Python, I recommend the following approach:
+Hi Maddy, 
+If you wish to learn basic programming skills with Python - which I strongly recommend you do - I suggest the following approach:
 1. Install Visual Studio Code (VS Code)
 2. Install Python Extension for VS Code and the Python compiler
+
+Any problems, give me a call 
+x
 
 ## Install Visual Studio Code
 
