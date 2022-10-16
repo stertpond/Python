@@ -1,5 +1,5 @@
 # This is the original method
-def Risk(value1, value2):
+def Risk1(value1, value2):
  if(value1 == 1 and value2 == 1): return 'Low'
  if(value1 == 1 and value2 == 2): return 'Low'
  if(value1 == 1 and value2 == 3): return 'Medium'
@@ -16,8 +16,8 @@ def Risk(value1, value2):
 
 # This is our new more efficient method
 def Risk2(value1, value2):
- if(value1 == 1 and (value2 == 1 or value2==2)): return 'Low'
- if(value1 == 1 and (value2 == 3 or value2==4)): return 'Medium'
+ if(value1 == 1 and (value2 == 1 or value2==2)): return 'xLow'
+ if(value1 == 1 and (value2 == 3 or value2==4)): return 'xMedium'
  if(value1 == 2 and value2 == 1): return 'Low'
  if(value1 == 2 and (value2 == 2 or value2== 3)): return 'Medium'
  if(value1 == 2 and value2 == 4): return 'High'
@@ -43,13 +43,14 @@ for tuple in tuples:
     v2=tuple[1] # extract value 2 from the tuple
     expectedRisk=tuple[2] #extract expected Risk from the tuple
     
-    risk = Risk(v1,v2) # calculate the Risk using original method
-    if (risk!=expectedRisk) : # verify that first method has returned correct Risk
-        print ("ERROR! Risk is incorrect for values:",v1,v2,expectedRisk, risk)
-    
-    risk2 = Risk2(v1,v2) # calculate the Risk using our new method
-    if (risk2!=expectedRisk) : # verify that the new  method has returned correct Risk
-        print ("ERROR! Risk2 is incorrect for values:",v1,v2,expectedRisk, risk)
+    risk1 = Risk1(v1,v2) # calculate the Risk using original method
+    risk1Result =""
+    if (risk1!=expectedRisk): risk1Result ="ERROR!"
 
-    print(tuple, risk, risk2)
+    risk2 = Risk2(v1,v2) # calculate the Risk using our new method
+    risk2Result =""
+    if (risk2!=expectedRisk): risk2Result ="ERROR!"
+
+    print(tuple, ":", "Risk1=",risk1, risk1Result,"; Risk2=",risk2, risk2Result)
+    
     continue
