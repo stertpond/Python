@@ -24,7 +24,7 @@ Install VS Code as follows:
 
 Instructions are available [here](https://code.visualstudio.com/docs/python/python-tutorial).
 Follow these carefully, noting the following:
-- You will need to install a Python Compiler as explained [here](https://code.visualstudio.com/docs/python/python-tutorial#_install-a-python-interpreter) where, you are given different options. I recommend you downloaded the compiler from [python org](https://www.python.org/downloads/) - click the download button and then run the installer program.
+- You will need to install a Python Compiler as explained [here](https://code.visualstudio.com/docs/python/python-tutorial#_install-a-python-interpreter) where you are provided with different compiler source location. I recommend you downloaded the compiler from [python org](https://www.python.org/downloads/) - click the download button and then run the installer program.
 - Read [this](https://code.visualstudio.com/docs/python/python-tutorial#_verify-the-python-installation) to verify the Extension and Compiler are correctly installed 
 
 # Create your first (very simple) Python program
