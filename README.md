@@ -34,7 +34,7 @@ How to do this is explained [here](https://code.visualstudio.com/docs/python/pyt
 Any problems, give me a shout
 
 # Git and Source Code Respository
-This file, together with my example Python programs (Risk.py and HelloMaddy.py), are stored in an online source code repository know as [GitHub](https://github.com/).
+This file, together with my example Python programs (`Risk.py` and `HelloMaddy.py`), are stored in an online source code repository know as [GitHub](https://github.com/).
 GitHub is the worlds largest source code repository and is accessible to everyone at no charge. It provides an easy and effective way to share source code.
 It also works very well with VS Code.
 Once you have got the Python working with VS Code then we can look at sharing code using Git. :)
