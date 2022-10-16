@@ -32,12 +32,11 @@ The aim here is to verify things are working correctly by writing a very simple 
 Explained here https://code.visualstudio.com/docs/python/python-tutorial#_install-a-python-interpreter
 Any problems, give me a shout
 
-# Git and ource Code Respository
-This file, together with my example Python programs, are stored in an online source code repository know as [GitHub](https://github.com/).   
-GitHub is the worlds largest source code repository and is accessible to everyone at no charge. 
-It provides an easy and effective way to share source code. 
-It also works very well with VS Code. 
-Once you have got the Python working in VS Code then we can look at sharing code using Git
+# Git and Source Code Respository
+This file, together with my example Python programs, are stored in an online source code repository know as [GitHub](https://github.com/).
+GitHub is the worlds largest source code repository and is accessible to everyone at no charge. It provides an easy and effective way to share source code.
+It also works very well with VS Code.
+Once you have got the Python working in VS Code then we can look at sharing code using Git.
 
 Happy coding!!!
 
