@@ -21,4 +21,4 @@ Setting up the extension is explained here https://code.visualstudio.com/docs/py
 Explained here https://www.python.org/downloads/
 
 # Writing and executing Programs
-Start by trying to run the programs included in this repository
+Start by trying to run the programs included in this repository..or give me a call 
