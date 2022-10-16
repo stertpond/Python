@@ -18,7 +18,7 @@ Be warned, initially there is a bit of a learning curve to be mastered here, how
 Install VS Code as follows:
 1. Download from [vs code site](https://code.visualstudio.com/docs#vscode) and follow the instructions
 2. Once installed, verify that you can open the program
-3. Recommend you add shortcut to the Windows Task bar to make accessing the program easier.
+3. I also recommend you add shortcut to the Windows Task bar to make accessing the program easier.
 
 ## Install Python Extension and Compiler
 
