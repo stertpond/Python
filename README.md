@@ -16,8 +16,8 @@ VS Code is a free, lightweight but very powerful file editor from Microsoft that
 Be warned, initially there is a bit of a learning curve to be mastered here, however, this is definitly worth the effort and should not take you long - don't give up as VS Code is worth knowing even if you do not want to code!!
 
 Install VS Code as follows:
-1. Download from [vs code site](https://code.visualstudio.com/docs#vscode) and follow the instructions
-2. Once installed, verify that you can open the program
+1. Download from [vs code site](https://code.visualstudio.com/docs#vscode). Select the Download button and then run the installer on your PC, following the instructions provided.
+2. Once installed, verify that you can open the program `Start => Visual Studio Code`
 3. I also recommend you add shortcut to the Windows Task bar to make accessing the program easier.
 
 ## Install Python Extension and Compiler
