@@ -6,8 +6,8 @@ If you wish to learn basic programming skills with Python - which I strongly rec
 1. Install Visual Studio Code (VS Code)
 2. Install Python Extension for VS Code and the Python compiler
 
-Below, is some guidance on how to do this. 
-Any problems, give me a call 
+Below, is some guidance on how to do this.  
+Any problems, give me a call  
 x
 
 ## Install Visual Studio Code
