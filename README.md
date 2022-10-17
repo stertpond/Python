@@ -24,12 +24,12 @@ Install VS Code as follows:
 
 Instructions are available [here](https://code.visualstudio.com/docs/python/python-tutorial).
 Follow these carefully, noting the following:
-- You will need to install a Python compiler as explained [here](https://code.visualstudio.com/docs/python/python-tutorial#_install-a-python-interpreter). I downloaded the compiler from [python org](https://www.python.org/downloads/) as recomended - click the download button and then run the installer program.
+- You will need to install a Python compiler as explained [here](https://code.visualstudio.com/docs/python/python-tutorial#_install-a-python-interpreter). I downloaded the compiler from [python org](https://www.python.org/downloads/) as recommended - click the download button and then run the installer program.
 - Read [this](https://code.visualstudio.com/docs/python/python-tutorial#_verify-the-python-installation) to verify the Extension and Compiler are correctly installed 
 
 # Create your first (very simple) Python program
 The aim here is to verify things are working correctly by writing a very simple program to print the words "Hello World". 
-How to do this is explained [here](https://code.visualstudio.com/docs/python/python-tutorial#_install-a-python-interpreter).
+How to do this is explained [here](https://code.visualstudio.com/docs/python/python-tutorial#_create-a-python-hello-world-source-code-file).
 
 Any problems, give me a shout
 
