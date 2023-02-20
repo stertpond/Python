@@ -4,7 +4,7 @@
 #   https://www.python.org/about/ - The authoratitive python site (not spent much time here)
 
 # Print statement explained here: https://www.w3schools.com/python/ref_func_print.asp
-print("Hello, Maddy!")
+print("Hello, Mad!")
 
 # Tuples explained: https://www.w3schools.com/python/python_tuples.asp
 myTuple = (1,1,"Low") 
